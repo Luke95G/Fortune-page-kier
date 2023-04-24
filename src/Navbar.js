@@ -19,7 +19,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="https://www.tiktok.com/@kierofficialmusic?is_from_webapp=1&sender_device=pc">
-            Tik Tok
+            TikTok
           </a>
         </li>
         <li>
