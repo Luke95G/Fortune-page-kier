@@ -5,7 +5,9 @@ import kierLogo from "./Kier-Logo.png";
 const Header = () => {
   return (
     <header className="header">
-      <img src={kierLogo} className="kierLogo" alt="Logo" />
+      <a href="https://www.kierofficialmusic.com/">
+        <img src={kierLogo} className="kierLogo" alt="Logo-Kier" />
+      </a>
     </header>
   );
 };

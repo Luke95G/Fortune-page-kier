@@ -3,41 +3,34 @@
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 40vmin;
   border-radius: 20px;
 }
+
+.App-logo:hover{
+  cursor: pointer;
+}
+
 .header{
   background-color: black;
 }
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: rama-gothic-e;
-}
 
 .kierLogo{
-  height: 200px;
+  height: 250px;
 }
 
-.FortuneCard {
-  height: 500px;
-  width: 400px;
-}
-
-nav {
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #333;
-  height: 50px;
+  height: 70px;
   font-size: x-large;
   font-family: rama-gothic-e;
+}
+
+a {
+  color: whitesmoke;
 }
 
 ul {
@@ -47,9 +40,22 @@ ul {
 }
 
 li {
-  margin: 15px;
+  margin: 70px;
 }
 
-a {
-  color: #fff;
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+  font-family: rama-gothic-e;
+}
+
+.FortuneCard {
+  height: 600px;
+  width: 450px;
 }

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import fortune from "./fortune.png";
+// import fortune from "./fortune.png";
+import tarotReader from "./tarot-reader.png";
 import "./App.css";
 import KierFortune1 from "./Kier_fortune.png";
 import kierLogo from "./Kier-Logo.png";
-// import { FaMagic } from "react-icons/fa";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const MainPage = () => {
   const [displayedPng, setDisplayedPng] = useState(null);
@@ -20,11 +19,8 @@ const MainPage = () => {
   return (
     <div className="App-header">
       <h1>Reveal your fate!</h1>
-      {/* <FontAwesomeIcon icon="fas fa-magic" /> */}
-      <i className="fa-light fa-thumbs-up"></i>
-      <FontAwesomeIcon icon="fa-light fa-thumbs-up" />
       <img
-        src={fortune}
+        src={tarotReader}
         onClick={handleCLick}
         className="App-logo"
         alt="logo"
