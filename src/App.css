@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  border-radius: 20px;
+  height: 50vmin;
+  width: 50vmin;
+  border-radius: 1000px;
 }
 
 .App-logo:hover{
@@ -57,5 +58,22 @@ li {
 
 .FortuneCard {
   height: 600px;
-  width: 450px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+.downloadButt {
+  background-color: whitesmoke;
+  color: #333;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: rama-gothic-e;
+  font-size: 30px;
+}
+
+.downloadButt:hover {
+  color: whitesmoke;
+  background-color: black;
 }
