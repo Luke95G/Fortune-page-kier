@@ -17,7 +17,8 @@
 }
 
 .kierLogo{
-  height: 250px;
+  height: 200px;
+  max-width: 100%;
 }
 
 .nav {
@@ -26,7 +27,7 @@
   align-items: center;
   background-color: #333;
   height: 70px;
-  font-size: x-large;
+  font-size: 16px;
   font-family: rama-gothic-e;
 }
 
@@ -38,10 +39,11 @@ ul {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
-  margin: 70px;
+  margin: 0 15px;
 }
 
 .App-header {
@@ -51,14 +53,15 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: whitesmoke;
   font-family: rama-gothic-e;
 }
 
 .FortuneCard {
-  height: 600px;
-  width: 500px;
+  height: auto;
+  width: 90%;
+  max-width: 500px;
   margin-top: 0px;
 }
 
@@ -70,7 +73,8 @@ li {
   border-radius: 5px;
   cursor: pointer;
   font-family: rama-gothic-e;
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .downloadButt:hover {
