@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import kierLogo from "./Kier-Logo.png";
+import kierLogo from "./PNGs/Kier-Logo.png";
 
 const Header = () => {
   return (
