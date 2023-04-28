@@ -5,11 +5,14 @@
 .App-logo {
   height: 50vmin;
   width: 50vmin;
-  border-radius: 1000px;
+  border-radius: 250px;
+  box-shadow: 0px  0px 12px whitesmoke;
 }
 
 .App-logo:hover{
   cursor: pointer;
+  text-decoration: underline;
+  
 }
 
 .header{
@@ -62,7 +65,7 @@ li {
   height: auto;
   width: 90%;
   max-width: 500px;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .downloadButt {
